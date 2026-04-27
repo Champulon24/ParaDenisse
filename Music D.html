@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Canciones</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: "Georgia", serif;
+      background-image: url("fondo.jpg");
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      background-position: center;
+      text-align: center;
+      color: #4a2c2a;
+    }
+
+    h1 {
+      margin-top: 30px;
+      color: #a62c43;
+      text-shadow: 2px 2px 4px rgba(255,255,255,0.8);
+      font-size: 3em;
+    }
+
+    .galeria {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 40px;
+      padding: 40px;
+    }
+
+    .cancion {
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      padding: 15px;
+      width: 250px;
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .cancion:hover {
+      transform: scale(1.05);
+      box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+    }
+
+    .cancion img {
+      width: 100%;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: opacity 0.3s, transform 0.3s;
+    }
+
+    .cancion img:hover {
+      opacity: 0.9;
+      transform: scale(1.03);
+      box-shadow: 0 0 20px rgba(255, 192, 203, 0.7);
+    }
+
+    .cancion p {
+      margin-top: 10px;
+      font-size: 1.2em;
+      font-weight: bold;
+    }
+
+    /* Estilos para los botones */
+    .botones {
+      margin-top: 40px;
+      margin-bottom: 50px;
+    }
+
+    .botones a {
+      display: inline-block;
+      text-decoration: none;
+      background-color: #a62c43;
+      color: white;
+      padding: 12px 30px;
+      border-radius: 30px;
+      margin: 0 15px;
+      font-size: 1.2em;
+      transition: background-color 0.3s, transform 0.3s;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+    }
+
+    .botones a:hover {
+      background-color: #8e1e36;
+      transform: scale(1.05);
+    }
+  </style>
+</head>
+<body>
+  <h1>🌹 Canciones en las que te pienso 🌹</h1>
+
+  <div class="galeria">
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=wVRF3SqLUi0" target="_blank">
+        <img src="f.jpg" alt="Bound 2">
+      </a>
+      <p>Bound 2</p>
+      <p>Kanye West</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=t3x9IcFVPAI" target="_blank">
+        <img src="e.png" alt="Foldin Clothes">
+      </a>
+      <p>Foldin Clothes</p>
+      <p>J Cole</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=qWJMm0MaF8A4" target="_blank">
+        <img src="d.jpg" alt="Alta Elegancia">
+      </a>
+      <p>Amor</p>
+      <p>Alta Elegancia</p>
+    </div>
+  </div>
+
+  <div class="galeria">
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=TazHNpt6OTo"target="_blank">
+        <img src="c.jpg" alt="Escape (Piña Colada Song)">
+      </a>
+      <p>Escape (Piña Colada Song)</p>
+      <p>Rupert Holmes</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=l6wRow3F3jI" target="_blank">
+        <img src="b.png" alt="Ain't No Mountain High Enough">
+      </a>
+      <p>Ain't No Mountain High Enough</p>
+      <p>Marvin Gaye</p>
+    </div>
+
+    <div class="cancion">
+      <a href="https://www.youtube.com/watch?v=yKNxeF4KMsY" target="_blank">
+        <img src="a.png" alt="Yellow">
+      </a>
+      <p>Yellow</p>
+      <p>Coldplay</p>
+    </div>
+  </div>
+
+  <!-- 🔘 Botones al final -->
+  <div class="botones">
+    <a href="file:///C:/Users/champ/OneDrive/Desktop/Propuesta/Vers%C3%ADculos%20D.html">Versículos</a>
+    <a href="file:///C:/Users/champ/OneDrive/Desktop/Propuesta/Final%20D.html">.....</a>
+  </div>
+
+</body>
+</html>
